@@ -4,3 +4,6 @@
 [submodule "game_show_app"]
 	path = game_show_app
 	url = https://github.com/immad84/game_show_app
+[submodule "online_registration"]
+	path = online_registration
+	url = https://github.com/immad84/online_registration
