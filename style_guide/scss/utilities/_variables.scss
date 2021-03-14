@@ -1,0 +1,46 @@
+
+// Descriptive color variables
+
+$white                      : #fff;
+$silver                     : #ccc;
+$boulder                    : #777;
+
+$viking                     : #58E1C1;
+$malibu                     : #51DDFC;
+$coral                      : #FD7856;
+$sunglo                     : #E4757A;
+$emerald                    : #63CC82;
+$riptide                    : #80E8D1;
+
+$purple-mountain-majesty    : #927BC1;
+$french-lilac               : #DEB2EE;
+$anakiwa                    : #7EE6FD;
+$vista-blue                 : #88D9A0;
+$fountain-blue              : #4DA2BB;
+$sea-pink                   : #EC9FA3;
+$vivid-tangerine            : #FD9F85;
+
+// Functional color variables
+
+$color-primary                  : $viking;
+
+$color-text-primary             : $boulder;
+$color-text-headline-primary    : $color-primary;
+
+$color-bg-button                : darken(complement($purple-mountain-majesty),10%);
+
+$color-border-bottom            : complement($silver);
+
+$color-img-frame                : darken($silver,100%);
+
+$color-link-default             : $malibu;
+$color-link-visited             : $vivid-tangerine;
+
+// Font Stack 
+
+$font-stack-primary   : 'Lato', sans-serif;
+
+// Media Query Breakpoints
+
+$break-point          : '(min-width: 768px)';
+

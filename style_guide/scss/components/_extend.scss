@@ -1,0 +1,20 @@
+
+
+%btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    @media #{$break-point} {
+        padding: 10px 30px;
+    }
+}
+
+
+%transition {
+    transition: background-color .5s ease-in-out;
+}
+

@@ -1,0 +1,48 @@
+
+.btn {
+  &-default {
+    background-color: $malibu;
+    @extend %btn;
+    @extend %transition;
+    &:hover {
+      background-color: $color-bg-button;
+    }
+  }
+  
+  &-error {
+    background-color: $sunglo ;
+    @extend %btn;
+    @extend %transition;
+    &:hover {
+      background-color: $color-bg-button;
+    }
+  }
+  
+  &-info {
+    background-color: $purple-mountain-majesty;
+    @extend %btn;
+    @extend %transition;
+    &:hover {
+      background-color: $color-bg-button;
+    }
+  }
+  
+  &-success {
+    background-color: $emerald;
+    @extend %btn;
+    @extend %transition;
+    &:hover {
+      background-color: $color-bg-button;
+    }
+  }
+  
+  &-warning {
+    background-color: $coral;
+    @extend %btn;
+    @extend %transition;
+    &:hover {
+      background-color: $color-bg-button;
+    }
+  }
+}
+  

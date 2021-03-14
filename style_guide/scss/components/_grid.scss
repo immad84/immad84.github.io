@@ -1,0 +1,98 @@
+
+
+  .container {
+    padding: 0 10px;
+
+    @media #{$break-point} {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+
+    @media #{$break-point} {
+      flex-direction: row;
+    }
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+
+    @media #{$break-point} {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+    }
+  }
+  
+  .theme {
+    &.col-1 {
+      background-color: $purple-mountain-majesty;
+    }
+    
+    &.col-2 {
+      background-color: $coral;
+    }
+    
+    &.col-3 {
+      background-color: $french-lilac;
+    }
+    
+    &.col-4 {
+      background-color: $anakiwa;
+    }
+    
+    &.col-5 {
+      background-color: $vista-blue;
+    }
+    
+    &.col-6 {
+      background-color: $fountain-blue ;
+    }
+    
+    &.col-7 {
+      background-color: $sea-pink;
+      
+      @media #{$break-point} {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+    }
+    
+    &.col-8 {
+      background-color: $vivid-tangerine;
+    }
+    
+    &.col-9 {
+      background-color: $sunglo;
+    }
+    
+    &.col-10 {
+      background-color: $emerald;
+    }
+    
+    &.col-11 {
+      background-color: $malibu;
+    }
+    
+    &.col-12 {
+      background-color: $riptide; 
+    }
+  }
+  
+  .card {
+    flex-basis: 100%;
+  }
+  

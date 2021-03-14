@@ -1,0 +1,197 @@
+a:hover {
+  color: orange;
+}
+
+a:link {
+  color: #0399ff;
+}
+
+a:visited {
+  /* color: firebrick; */
+}
+
+section {
+  padding-top: 2.5em;
+}
+
+/* ================================= 
+Elements Style
+==================================== */
+
+/* .active {
+  background-color: #4caf50;
+  color: white;
+} */
+
+/* .featured-img {
+  width: 80%;
+  margin-bottom: 1em;
+  margin-top: 2em;
+} */
+
+.contact {
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+
+
+.card {
+  text-align: center;
+  background: #fff;
+}
+
+.card:hover {
+  border-color: #ff99ff;
+}
+
+.project-title {
+  text-transform: capitalize;
+  font-size: 1em;
+}
+
+.discription {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+
+
+
+
+
+/* ================================= 
+  Media query
+==================================== */
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+  }
+
+  .main-header {
+    height: 300px;
+  }
+
+  .featured-img {
+    width: 40%;
+    float: right;
+    margin-left: 2em;
+    margin-top: 1em;
+    padding-bottom: 3em;
+  }
+
+
+
+  .introduction {
+    margin: 3em 0;
+  }
+
+
+
+  .col {
+    float: left;
+    height: 25%;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+
+
+
+}
+
+/* ================================= 
+  Media query
+==================================== */
+
+@media (min-width: 1024px) {
+  .content-area {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+
+  .main-nav .name {
+    padding: 15px;
+    float: left;
+  }
+
+  .main-nav ul {
+    float: right;
+  }
+
+  .featured-img {
+    width: 40%;
+  }
+
+  .marketing-page,
+  .search-page,
+  .travel-app,
+  .fav-spots,
+  .photo-gallery,
+  .calculator {
+    max-width: 33%;
+  }
+
+  .col {
+    /* margin-right: 10px; */
+    float: left;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+}
+
+
+
+/* ================================= 
+Layout Containers
+==================================== */
+
+/* ================================= 
+Naviation Styles
+==================================== */
+
+/* ----- Nav Element Styles ----- */
+
+/* a.icon {
+  background-color: #bfada3;
+  width: 1.5em;
+  color: #000;
+  font-size: 2em;
+  display: block;
+  position: fixed;
+  right: 0.2em;
+  top: 0;
+}
+
+a.home {
+  background-color: #bfada3;
+  width: 1.5em;
+  color: #000;
+  font-size: 2em;
+  display: block;
+  position: fixed;
+  left: 0.2em;
+  top: 0;
+} */
+
+/* ================================= 
+Header Styles
+==================================== */
+
+/* ----- Header Element Styles ----- */
+
+
+
+
+
+/* .skills li:nth-child(odd) {
+  background: #0399ff;
+} */
+
+
+
+
