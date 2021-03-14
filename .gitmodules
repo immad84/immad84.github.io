@@ -10,3 +10,6 @@
 [submodule "photo_gallery"]
 	path = photo_gallery
 	url = https://github.com/immad84/photo_gallery
+[submodule "responsive_layout_project"]
+	path = responsive_layout_project
+	url = https://github.com/immad84/responsive_layout_project
