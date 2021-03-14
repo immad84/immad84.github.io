@@ -7,3 +7,6 @@
 [submodule "online_registration"]
 	path = online_registration
 	url = https://github.com/immad84/online_registration
+[submodule "photo_gallery"]
+	path = photo_gallery
+	url = https://github.com/immad84/photo_gallery
