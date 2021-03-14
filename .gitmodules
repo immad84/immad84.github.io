@@ -1,0 +1,3 @@
+[submodule "board-game"]
+	path = board-game
+	url = https://github.com/immad84/board-game
