@@ -1,3 +1,6 @@
 [submodule "board-game"]
 	path = board-game
 	url = https://github.com/immad84/board-game
+[submodule "game_show_app"]
+	path = game_show_app
+	url = https://github.com/immad84/game_show_app
