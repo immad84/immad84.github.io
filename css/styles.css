@@ -32,7 +32,7 @@ a {
 img {
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 span {
@@ -101,12 +101,6 @@ a.icon {
   border: 1px solid gainsboro;
 }
 
-/* .name {
-  text-transform: capitalize;
-  font-size: 1.875em;
-  margin-top: 1.3em;
-  margin-bottom: 0;
-} */
 
 .main-nav .arrow {
   width: 30px;
@@ -192,9 +186,54 @@ div.java {
 
 /* ----------  Main Element Style ---------- */
 
+.photo-container img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .project-title {
   text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
+
+.overlay {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.overlay p {
+  position: absolute;
+  width: 100%;
+  top: -50px;
+  transition: top .5s;
+}
+
+.overlay a {
+  position: absolute;
+  width: 100%;
+  bottom: -50px;
+  color: #fff;
+  transition: bottom .5s;
+}
+
+.overlay:hover {
+  opacity: .9;
+  background-color: #000;
+}
+
+.overlay:hover p {
+  top: 20%;
+}
+
+.overlay:hover a {
+  bottom: 20%;
+}
+
 
 .search li {
   display: inline-block;
@@ -209,11 +248,6 @@ p.desc {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
-/* .email,
-.phone {
-  font-size: 10px;
-} */
 
 .email a {
   display: inline-block;
@@ -417,7 +451,7 @@ ul.skills {
     row-gap: 20px;
   }
 
-  .marketing-page,
+  /* .marketing-page,
   .guessing-app,
   .style-guide,
   .responsive-disign,
@@ -428,7 +462,37 @@ ul.skills {
   .calculator,
   .registration-form {
     text-transform: capitalize;
-  }
+  } */
+
+  /* ================================= 
+  3D Flipping Animation
+==================================== */
+
+.photo-container {
+  perspective: 700px;
+  position: relative;
+  /* perspective-origin: 100% 80%; */
+}
+
+.photo {
+	transition: transform 1s cubic-bezier(.6,-0.27,.39,1.31);
+  transform-style: preserve-3d;
+}
+
+.photo:hover {
+  /* transform: rotateY(-180deg);
+  transform: rotateZ(180deg); */
+  transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.side-a {
+  backface-visibility: hidden;
+}
+
+.side-b {
+  /* opacity: 0.1; */
+  transform: rotateX(180deg);
+}
 
   .to-top {
     display: none;
