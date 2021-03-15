@@ -3,6 +3,8 @@ const icon = document.querySelector('.icon');
 const close = document.querySelector('.closebtn');
 const search = document.getElementsByClassName('a.search');
 const caption = document.querySelectorAll('.portfolio a');
+const progress = document.querySelectorAll('.tag');
+
 
 icon.addEventListener('click', () => {
   menu.style.width = "100%";
@@ -32,3 +34,7 @@ for(let i = 0 ; i < search.length ; i++){
     }
   });
 }
+
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
