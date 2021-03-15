@@ -216,7 +216,7 @@ div.java {
 .overlay a {
   position: absolute;
   width: 100%;
-  bottom: -50px;
+  bottom: -40px;
   color: #fff;
   transition: bottom .5s;
 }
