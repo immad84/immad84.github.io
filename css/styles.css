@@ -209,14 +209,14 @@ div.java {
 .overlay p {
   position: absolute;
   width: 100%;
-  top: -50px;
+  top: 5px;
   transition: top .5s;
 }
 
 .overlay a {
   position: absolute;
   width: 50%;
-  bottom: -40px;
+  bottom: 5px;
   left: 25%;
   color: #fff;
   transition: bottom .5s;
