@@ -134,14 +134,14 @@ a.icon {
   text-align: left;
 }
 
-div.html,
-div.css,
-div.scss,
-div.js,
-div.angular,
-div.node,
-div.php,
-div.java {
+/* .progress {
+  border: 1px solid red;
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+
+.tag {
   padding: 5px;
   position: absolute;
   background-color: #50c878;
@@ -152,7 +152,7 @@ div.java {
   z-index: -1;
 }
 
-div.html {
+/* div.html {
   width: 95%;
 }
 
@@ -182,7 +182,7 @@ div.php {
 
 div.java {
   width: 55%;
-}
+} */
 
 /* ----------  Main Element Style ---------- */
 
@@ -393,7 +393,6 @@ ul.skills {
     width: 400px;
     margin: 0 auto;
     font-size: 3rem;
-    /* border-bottom: 2px solid; */
   }
 
   .nav {
@@ -420,9 +419,9 @@ ul.skills {
     font-size: 20px;
     padding: 2px;
     width: fit-content;
-    text-transform: capitalize;
-    /* background-color: green; */
+    text-transform: uppercase;
   }
+
 
   .nav-links a {
     color: #000;
