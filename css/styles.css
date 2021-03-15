@@ -215,10 +215,13 @@ div.java {
 
 .overlay a {
   position: absolute;
-  width: 100%;
+  width: 50%;
   bottom: -40px;
+  left: 25%;
   color: #fff;
   transition: bottom .5s;
+  border: 1px solid red;
+  padding: 5px;
 }
 
 .overlay:hover {
