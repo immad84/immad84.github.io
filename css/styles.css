@@ -133,7 +133,6 @@ a.icon {
   text-align: left;
 }
 
-
 .tag {
   padding: 5px;
   position: absolute;
@@ -161,8 +160,12 @@ div.js {
   width: 80%;
 }
 
-div.angular {
-  width: 45%;
+div.jquery {
+  width: 75%;
+}
+
+div.react {
+  width: 78%;
 }
 
 div.node {
